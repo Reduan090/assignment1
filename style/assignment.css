@@ -1,18 +1,18 @@
 /* navigation style */
 
-nav{
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 0 200px;
 }
 
-body{
+body {
     font-family: 'Open Sans', sans-serif;
     font-family: 'Poppins', sans-serif;
 }
 
-.btn-primary{
+.btn-primary {
     background-color: #E55473;
     border-radius: 8px;
     border: 0px;
@@ -22,7 +22,7 @@ body{
     padding: 16px 39px 16px 39px;
 }
 
-.nav-title{
+.nav-title {
     color: black;
     font-family: open sans;
     font-size: 45px;
@@ -30,17 +30,43 @@ body{
     font-weight: 800;
     line-height: normal;
 }
-nav>ul{
+
+nav>ul {
     display: flex;
     align-items: center;
 }
-nav li{
+
+nav li {
     list-style: none;
     margin-right: 40px;
 }
-nav a{
+
+nav a {
     text-decoration: none;
-    color:#5e1818 ;
-    font-size:  18px;
+    color: #5e1818;
+    font-size: 18px;
 }
 
+.navbar {
+    background: rgba(229, 84, 115, 0.10);
+}
+
+/* Banner */
+.banner {
+    padding: 30px 30px 0px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.banner-content {
+    max-width: 400px;
+    align-items: center;
+}
+
+.banner-title {
+    color: #272727;
+    font-size: 46px;
+    font-weight: 800;
+    line-height: normal;
+}
