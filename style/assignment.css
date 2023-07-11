@@ -86,7 +86,7 @@ nav a {
 }
 
 .banner-section {
-    width: 1920px;
+    width: 1840px;
     height: 850px;
     padding-top: 20px;
 }
@@ -171,4 +171,43 @@ nav a {
     font-weight: 700;
     line-height: 35px;
     text-decoration-line: underline;
+}
+
+
+/* delivery issue*/
+
+.delivery-issue {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 100px 200px 100px 200px;
+}
+
+.delivery-issue .icon {}
+
+.delivery {
+    width: 1440px;
+    height: 320px;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+}
+
+.hot-deal {
+    padding: 30px 30px 0px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgba(229, 84, 115, 0.10);
+}
+
+.hot-deal-content {
+    max-width: 400px;
+    align-items: center;
+    overflow: hidden;
+}
+
+.hot-deal-section {
+    width: 1840px;
+    height: 850px;
+    padding-top: 20px;
 }
